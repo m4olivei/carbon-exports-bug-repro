@@ -11,6 +11,6 @@
   "type": "module",
   "dependencies": {
     "@babel/runtime": "^7.24.8",
-    "@carbon/ibmdotcom-web-components": "^1.45.0"
+    "@carbon/ibmdotcom-web-components": "^2.10.0"
   }
 }
