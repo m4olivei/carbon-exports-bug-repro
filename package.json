@@ -1,4 +1,16 @@
 {
   "name": "carbon-exports-bug-repro",
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "yarn@4.3.1",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "type": "module",
+  "dependencies": {
+    "@babel/runtime": "^7.24.8",
+    "@carbon/ibmdotcom-web-components": "^1.45.0"
+  }
 }
